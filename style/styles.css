@@ -4,11 +4,12 @@ body {
     font-family: "Azeret Mono", monospace;
 }
 
+/* header start */
 .header {
     margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
-    width: 1390px;
-    height: 652px;
+    width: 1380px;
+    height: 752px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,4 +39,165 @@ body {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     color: rgb(255, 255, 255);
+}
+
+/* header end */
+
+
+/* developer section start */
+.developer {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 1140px;
+    height: 1295px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.developer h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.developer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.developer .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.developer .description {
+    width: 80%;
+}
+
+.part1-developer,
+.part2-developer,
+.part3-developer {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.part1-developer h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.part2-developer h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.part3-developer h6 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.part1-developer .btn {
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: 1px Inside rgb(13, 19, 33);
+}
+
+.part2-developer .btn {
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: 1px Inside rgb(13, 19, 33);
+}
+
+.part3-developer .btn {
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: 1px Inside rgb(13, 19, 33);
+}
+
+.part1-developer .part1 {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.part2-developer .part2 {
+    width: 60%;
+    padding-right: 60px;
+}
+
+.part3-developer .part3 {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.part1-developer .part1-img {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.part2-developer .part2-img {
+    width: 60%;
+    margin-right: 30%;
+    margin-left: 20px;
+    margin-top: 7%;
+}
+
+.part3-developer .part3-img {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* developer section end */
+
+/* inspiration section start */
+.inspiration {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 1140px;
+    height: 775px;
+}
+
+.inspiration h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.inspiration p {
+    line-height: 26px;
+    margin-top: -20px;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
