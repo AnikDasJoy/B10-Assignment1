@@ -181,6 +181,11 @@ body {
     margin-top: 5%;
     width: 1140px;
     height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .inspiration h3 {
@@ -192,12 +197,87 @@ body {
 .inspiration p {
     line-height: 26px;
     margin-top: -20px;
+    margin-bottom: 40px;
 }
 
-.inspiration {
+/* inspiration section end */
+
+
+/* target section start  */
+.target {
+    margin: 0 auto;
+    width: 1140px;
+    height: 460px;
+    margin-top: 7%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.target h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+}
+
+.target-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    text-align: left;
+    gap: 30px;
+}
+
+.target-container h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-container a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+.target-container .html .css .javascript {
+    padding: 30px;
+    width: 364px;
+    height: 599px;
+}
+
+.target-container .html {
+    width: 33.99%;
+    padding: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-container .css {
+    width: 33.99%;
+    padding: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-container .javascript {
+    width: 33.99%;
+    padding: 30px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* target section end  */
