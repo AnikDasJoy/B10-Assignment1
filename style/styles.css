@@ -335,3 +335,39 @@ body {
 }
 
 /* support section end */
+
+/* footer section start */
+footer {
+    width: 78%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer .social-site {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+footer .social-site li {
+    width: 70px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer .social-site li a {
+    font-size: 30px;
+}
+
+/* footer section end */
