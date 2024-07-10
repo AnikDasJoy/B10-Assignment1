@@ -281,3 +281,57 @@ body {
 }
 
 /* target section end  */
+
+/* support section start */
+.support {
+    margin: o auto;
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 1140px;
+    height: 313px;
+    background-image: linear-gradient(90deg,
+            rgba(16, 16, 16, 0.615) -19.5%,
+            rgba(16, 16, 16, 0.339) 100%), url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.support h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.support p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+}
+
+.support .text {
+    width: 548px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.submit-btn {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    height: 57px;
+    width: 120px;
+    background: rgb(255, 255, 255);
+}
+
+/* support section end */
