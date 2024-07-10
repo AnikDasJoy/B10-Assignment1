@@ -39,6 +39,7 @@ body {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 /* header end */
@@ -117,6 +118,7 @@ body {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: 1px Inside rgb(13, 19, 33);
+    cursor: pointer;
 }
 
 .part2-developer .btn {
@@ -127,6 +129,7 @@ body {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: 1px Inside rgb(13, 19, 33);
+    cursor: pointer;
 }
 
 .part3-developer .btn {
@@ -137,6 +140,7 @@ body {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     color: 1px Inside rgb(13, 19, 33);
+    cursor: pointer;
 }
 
 .part1-developer .part1 {
