@@ -286,6 +286,67 @@ body {
 
 /* target section end  */
 
+/* Next target section start */
+.next-target {
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 1140px;
+    height: 766px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.next-target h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.next-target p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+}
+
+.next-target-react,
+.next-target-nodejs,
+.next-target-mongodb {
+    padding: 10px 10px;
+    font-size: 24px;
+    font-weight: 800;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    border-radius: 10px;
+}
+
+.next-target-nodejs {
+    margin-top: 20px;
+}
+
+.next-target-mongodb {
+    margin-top: 20px;
+}
+
+.next-target a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+.react-description {
+    margin-left: 60px;
+}
+
+/* Next target section end */
+
+
 /* support section start */
 .support {
     margin: o auto;
